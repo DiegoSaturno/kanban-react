@@ -1,10 +1,10 @@
 import React from 'react';
-import { Card } from '../../components/card';
+import { Column } from '../../components/column';
 
 const Board = () => {
   return (
     <>
-      <Card />
+      <Column />
     </>
   );
 };

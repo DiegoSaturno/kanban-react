@@ -1,0 +1,44 @@
+.column-container {
+  width: 300px;
+  height: 600px;
+  background-color: aqua;
+  border-radius: 5px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.column-content {
+  height: 100%;
+  padding-top: 8px;
+  overflow-y: auto;
+}
+
+.column-content > * {
+  margin-bottom: 8px;
+}
+
+.column-content > :last-child {
+  margin-bottom: 0px;
+}
+
+.column-actions {
+  margin-top: 8px;
+  justify-self: flex-end;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
