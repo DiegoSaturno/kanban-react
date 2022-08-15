@@ -1,0 +1,10 @@
+.tag-container {
+  border-radius: 5px;
+  padding: 4px;
+  background-color: cyan;
+  font-size: 14px;
+  max-width: 40%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

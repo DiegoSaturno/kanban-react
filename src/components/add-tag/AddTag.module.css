@@ -1,0 +1,19 @@
+.add-tag-container {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid cyan;
+  color: cyan;
+  cursor: pointer;
+  max-height: 25px;  
+  font-size: 14px;
+  width: 5%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.add-tag-container:hover {
+  background-color: #E1E8ED;
+}

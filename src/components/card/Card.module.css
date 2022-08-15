@@ -1,6 +1,23 @@
 .card-container {
-  max-height: 150px;
+  min-height: 100px;
   padding: 8px;
   border-radius: 5px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-text {
+  padding: 4px;
+}
+
+.card-tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-tags > * {
+  margin: 3px;
 }

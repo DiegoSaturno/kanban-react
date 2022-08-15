@@ -1,9 +1,11 @@
 import React from 'react';
-import { Card } from '../card';
+import { Card } from 'components/card';
 
 import styles from './Column.module.css';
 
 const Column = () => {
+
+  //TODO: Receive color as a prop. Inherit to children components in order to make it consistent between diffent columns.
   return (
     <div className={styles['column-container']}>
       <section className={styles['column-title']}>
